@@ -165,11 +165,11 @@
 
 [Diagram/Formula](https://arxiv.org/abs/2203.03965)
 
-$\bar{e}_{k}^{\prime\tau}=\phi ^E\left( \bar{e}_{k}^{\tau},\bar{v}_{tail\left( k \right)}^{\tau},\bar{v}_{head\left( k \right)}^{\tau} \right) ,\forall k,\tau \,\,\left( 1 \right) $
+<img src="http://latex.codecogs.com/svg.latex?\bar{e}_{k}^{\prime\tau}=\phi ^E\left( \bar{e}_{k}^{\tau},\bar{v}_{tail\left( k \right)}^{\tau},\bar{v}_{head\left( k \right)}^{\tau} \right) ,\forall k,\tau \,\,\left( 1 \right)" align="left"/>
 
-${\bar{e}^{\prime}}_{\rightarrow i}^{\tau}=\rho ^{E\rightarrow V}\left( \bar{E}_{\rightarrow i}^{\prime\tau} \right) , \forall i, \tau \,\,\left( 2 \right) $
+<img src="http://latex.codecogs.com/svg.latex?\bar{e}^{\prime \tau}_{\rightarrow i} = \rho^{E \rightarrow V}(\bar{E}^{\prime \tau}_{\rightarrow i}), \quad \forall i, \tau \quad (2)" align="left"/>
 
-$\bar{v}_{i}^{\prime\tau}=\phi ^V\left( {\bar{e}^{\prime}}_{\rightarrow i}^{\tau},\bar{v}_{i}^{\tau} \right) , \forall i, \tau \,\,\left( 3 \right)$
+<img src="http://latex.codecogs.com/svg.latex?\bar{v}_{i}^{\prime\tau} = \phi^V\left( \bar{e}_{\rightarrow i}^{\prime \tau}, \bar{v}_i^\tau \right), \forall i, \tau \quad (3)" align="left"/>
 
 ---
 
