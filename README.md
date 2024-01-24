@@ -1,10 +1,24 @@
-## Traffic Prediction Modules
+# Traffic Prediction Modules
+
+# Table of Contents
+
+ - [Table of Contents](#table-of-contents)
+ - [Fully Connection LSTM(FC-LSTM)](####fully-connection-lstm)
+ - [Gate Recurrent Unit(GRU)](####gate-recurrent-unit)
+ - [General/Chebyshev Graph Convolution Layer](####generalchebyshev-graph-convolution-layer)
+ - [Temporal Self-Attention Layer](####temporal-self-attention-layer)
+ - [Diffusion Convolution Layer](####diffusion-convolution-layer)
+ - [Gated Temporal Convolution Layer/Network](####gated-temporal-convolution-layernetwork)
+ - [Spatial/Temporal Attention Layer](####spatialtemporal-attention-layer)
+ - [Window Attention Layer](####window-attention-layer)
+ - [Graph Update and Aggregate Network](####graph-update-and-aggregate-network)
+ - [Spatial-Temporal Identity(STID)](####spatial-temporal-identity)
+ - [Two-Stage Attention Layer](####two-stage-attention-layer)
+
+---
 
 
-
-[TOC]
-
-#### Fully-Connection LSTM(FC-LSTM)
+#### Fully Connection LSTM
 
 [Paper](https://arxiv.org/abs/1308.0850) 
 
@@ -16,7 +30,9 @@
 
 <img src="./imgs/fc_lstm.png" width="400" height="" style="float: left">
 
-#### Gate Recurrent Unit(GRU)
+---
+
+#### Gate Recurrent Unit
 
 [Paper](https://arxiv.org/abs/1406.1078)
 
@@ -27,6 +43,8 @@
 [Diagram/Formula](https://en.wikipedia.org/wiki/Gated_recurrent_unit)
 
 <img src="./imgs/gru.png" width="300" height="" style="float: left">
+
+---
 
 #### General/Chebyshev Graph Convolution Layer
 
@@ -46,6 +64,8 @@
 
 <img src="./imgs/gcn2.png" width="170" height="" style="float: left">
 
+---
+
 #### Temporal Self-Attention Layer
 
 [Paper](https://arxiv.org/abs/1706.03762)
@@ -62,6 +82,8 @@
 
 <img src="./imgs/selfatt.png" width="500" height="" style="float: left">
 
+---
+
 #### Diffusion Convolution Layer
 
 [Paper](https://arxiv.org/abs/1707.01926) 
@@ -75,6 +97,8 @@
 [Diagram/Formula](https://arxiv.org/abs/1707.01926)
 
 <img src="./imgs/dcrnn1.png" width="550" height="" style="float: left">
+
+---
 
 #### Gated Temporal Convolution Layer/Network
 
@@ -91,6 +115,8 @@
 [Diagram/Formula](https://arxiv.org/abs/1906.00121)
 
 <img src="./imgs/gtcn.png" width="350" height="" style="float: left">
+
+---
 
 #### Spatial/Temporal Attention Layer
 
@@ -109,6 +135,8 @@
 
 <img src="./imgs/tatt.png" width="400" height="" style="float: left">
 
+---
+
 #### Window Attention Layer
 
 [Paper](https://arxiv.org/abs/2203.15737) 
@@ -122,6 +150,8 @@
 [Diagram/Formula](https://arxiv.org/abs/2203.15737)
 
 <img src="./imgs/wa.png" width="500" height="" style="float: left">
+
+---
 
 #### Graph Update and Aggregate Network
 
@@ -141,7 +171,9 @@ ${\bar{e}^{\prime}}_{\rightarrow i}^{\tau}=\rho ^{E\rightarrow V}\left( \bar{E}_
 
 $\bar{v}_{i}^{\prime\tau}=\phi ^V\left( {\bar{e}^{\prime}}_{\rightarrow i}^{\tau},\bar{v}_{i}^{\tau} \right) , \forall i, \tau \,\,\left( 3 \right)$
 
-#### Spatial-Temporal Identity(STID)
+---
+
+#### Spatial-Temporal Identity
 
 [Paper](https://arxiv.org/abs/2208.05233)
 
@@ -154,6 +186,8 @@ $\bar{v}_{i}^{\prime\tau}=\phi ^V\left( {\bar{e}^{\prime}}_{\rightarrow i}^{\tau
 [Diagram/Formula](https://arxiv.org/abs/2208.05233)
 
 <img src="./imgs/stid.png" width="600" height="" style="float: left">
+
+---
 
 #### Two-Stage Attention Layer
 
@@ -169,35 +203,4 @@ $\bar{v}_{i}^{\prime\tau}=\phi ^V\left( {\bar{e}^{\prime}}_{\rightarrow i}^{\tau
 
 <img src="./imgs/tsa.png" width="650" height="" style="float: left">
 
-#### Dynamic Adjacency Generation Layer
-
-[Paper]
-
-*MA2GCN: Multi Adjacency relationship Attention Graph Convolutional Networks for Traffic
-Prediction using Trajectory data*
-
-[Code](./modules/dynamic_adj_gen.py)
-
-[Diagram/Formula](https://github.com/zachysun/Taxi_Traffic_Benchmark)
-
-<img src="./imgs/dag.png" width="350" height="" style="float: left">
-
-#### Multi-Adjacency Relationship Attention Mechanism
-
-[Paper]
-
-*MA2GCN: Multi Adjacency relationship Attention Graph Convolutional Networks for Traffic
-Prediction using Trajectory data*
-
-[Code](./modules/adjacency_att.py)
-
-[Diagram/Formula](https://github.com/zachysun/Taxi_Traffic_Benchmark)
-
-<img src="./imgs/adjatt.png" width="300" height="" style="float: left">
-
-
-
-
-
-
-
+---
